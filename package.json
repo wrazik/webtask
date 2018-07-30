@@ -1,0 +1,23 @@
+{
+  "name": "volounteerworker",
+  "version": "1.0.0",
+  "description": "Simple js script to dice random user based on predefined list",
+  "main": "volonteerworker.js",
+  "scripts": {
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrazik/webtask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrazik/webtask/issues"
+  },
+  "homepage": "https://github.com/wrazik/webtask#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
