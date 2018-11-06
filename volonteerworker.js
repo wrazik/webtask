@@ -42,7 +42,7 @@ module.exports = function(context, cb) {
   var response = ", you are nominated " + request;
    if (request === "list") {
       cb(null, { 
-        text: "List requested, here it is: " + users.map(function(user) { return "\n  >" + user[0]}).toString(),
+        text: "List requested, here it is: " + users.map(function(user) { return "\n  >" + user[0] + " aka <@" + user[1] + ">"}).toString(),
         response_type: "in_channel"
     });
    }
