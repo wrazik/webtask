@@ -26,13 +26,13 @@ return [[ 'anonim0', 'U5MLSPNAX' ],
   [ 'anonim17', 'U6W8B26UA' ],
   [ 'anonim18', 'U58FSE7B4' ],
   [ 'anonim19', 'U8N1QN45D' ],
-  [ 'anonim20', 'U072GC8ER' ],
   [ 'anonim22', 'U1P4R3UA0' ],
   [ 'anonim23', 'U50HZAX08' ],
   [ 'anonim24', 'UAS1X5CGL'],
   [ 'anonim25', 'UBK1HB4BG'],
   [ 'anonim26', 'UBHD8D532'],
-  [ 'anonim27', 'UAGM1BDPW']];
+  [ 'anonim27', 'UDNSNRSMS'],
+  [ 'anonim28', 'UAGM1BDPW']];
 }
 
 module.exports = function(context, cb) {
