@@ -32,7 +32,11 @@ return [[ 'anonim0', 'U5MLSPNAX' ],
   [ 'anonim25', 'UBK1HB4BG'],
   [ 'anonim26', 'UBHD8D532'],
   [ 'anonim27', 'UDNSNRSMS'],
-  [ 'anonim28', 'UAGM1BDPW']];
+  [ 'anonim28', 'UAGM1BDPW'], 
+  [ 'anonim29', 'UFVJ3U18V'],
+  [ 'anonim30', 'UFWFAKXNK'],
+  [ 'anonim31', 'UFWDK3PV5'],
+  ];
 }
 
 module.exports = function(context, cb) {
