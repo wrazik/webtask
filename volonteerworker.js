@@ -6,37 +6,12 @@ function isNormalInteger(str) {
 function randInt(a,b){return a+Math.floor(Math.random()*(++b-a))}
 
 function workers(name) {
-return [[ 'anonim0', 'U5MLSPNAX' ],
-  [ 'anonim1', 'U64HNPURG' ],
-  [ 'anonim2', 'U2WLHAD8T' ],
-  [ 'anonim3', 'U64HS7CTC' ],
-  [ 'anonim4', 'U03JBDLBP' ],
-  [ 'anonim5', 'U02T78DCS' ],
-  [ 'anonim6', 'U072GEAH3' ],
-  [ 'anonim7', 'U7BQUU3AN' ],
-  [ 'anonim8', 'U0BNBBR37' ],
-  [ 'anonim9', 'U1P4R0K36' ],
-  [ 'anonim10', 'U91BPGAUC' ],
-  [ 'anonim12', 'U0546735Y' ],
-  [ 'anonim13', 'U04MJ7NK1' ],
-  [ 'anonim15', 'U04497GD6' ],
-  [ 'anonim16', 'U03BA6HU5' ],
-  [ 'anonim17', 'U6W8B26UA' ],
-  [ 'anonim18', 'U58FSE7B4' ],
-  [ 'anonim19', 'U8N1QN45D' ],
-  [ 'anonim23', 'U50HZAX08' ],
-  [ 'anonim24', 'UAS1X5CGL'],
-  [ 'anonim25', 'UBK1HB4BG'],
-  [ 'anonim26', 'UBHD8D532'],
-  [ 'anonim27', 'UDNSNRSMS'],
-  [ 'anonim28', 'UAGM1BDPW'], 
-  [ 'anonim29', 'UFVJ3U18V'],
-  [ 'anonim30', 'UFWFAKXNK'],
-  [ 'anonim31', 'UFWDK3PV5'],
-  [ 'anonim32', 'UH9V60VLZ'],
-  [ 'anonim33', 'UHHRD20HK'],
-  [ 'anonim34', 'UJATY01UP'],
-  [ 'anonim35', 'UK6KDDL04'],
+  return [
+    'U5MLSPNAX', 'U64HNPURG', 'U2WLHAD8T', 'U64HS7CTC', 'U03JBDLBP', 'U02T78DCS', 'U072GEAH3',
+    'U7BQUU3AN', 'U0BNBBR37', 'U1P4R0K36', 'U91BPGAUC', 'U0546735Y', 'U04MJ7NK1', 'U04497GD6',
+    'U03BA6HU5', 'U6W8B26UA', 'U58FSE7B4', 'U8N1QN45D', 'U50HZAX08', 'UAS1X5CGL', 'UBK1HB4BG',
+    'UBHD8D532', 'UDNSNRSMS', 'UAGM1BDPW', 'UFVJ3U18V', 'UFWFAKXNK', 'UFWDK3PV5', 'UH9V60VLZ',
+    'UHHRD20HK', 'UJATY01UP', 'UK6KDDL04', 'UL11FCWAU', 'UKPK1GCLB', 'UL12AFJMB'
   ];
 }
 
@@ -46,7 +21,7 @@ module.exports = function(context, cb) {
   var response = ", you are nominated " + request;
    if (request === "list") {
       cb(null, { 
-        text: "List requested, here it is: " + users.map(function(user) { return "\n  >" + user[1] + " aka <@" + user[1] + ">"}).toString(),
+        text: "List requested, here it is: " + users.map(function(user) { return "\n  >" + user + " aka <@" + user + ">"}).toString(),
         response_type: "in_channel"
     });
    }
@@ -56,7 +31,7 @@ module.exports = function(context, cb) {
      }
      
      cb(null, { 
-       text: "<@" + users[randInt(0, users.length-1)][1] + ">" + response,
+       text: "<@" + users[randInt(0, users.length-1)] + ">" + response,
        response_type: "in_channel"
      });
    }
