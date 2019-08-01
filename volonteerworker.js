@@ -35,7 +35,8 @@ function workers(name) { return {
     'UKPK1GCLB': [' Did you started to love our company?'],
     'UL79MDBT7': [' Did you start brewing the beer before our next event?'],
     'U0TNZC926': [' Buon giorno, signor Marcin, we miss you!'],
-    'U054UT9QG': [' We are all waiting for parapetówka party!']
+    'U054UT9QG': [' We are all waiting for parapetówka party!'], 
+    'ULW3E5VK2': [' Any new design pattern for today?']
   };
 }
 
