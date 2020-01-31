@@ -19,7 +19,7 @@ function workers(name) { return {
     'U58FSE7B4': ['Pyry still tastier than potatoes?'],
     'U8N1QN45D': ['Mr. Magister, did you fill all excels for today?'], 
     'U50HZAX08': ['Still no DPF mounted?'],
-    'UAS1X5CGL': ['How do you feel in ~Nokia~ BMW?'],
+    'UAS1X5CGL': ['How do you feel in ~Nokia~ ~BMW~ any comparny where you are decoration as always?'],
     'UBK1HB4BG': ['Did npm crashed today?'],
     'UBHD8D532': [''],
     'UDNSNRSMS': ['Praised be Jesus Christ, Father Director.'],
@@ -67,7 +67,7 @@ module.exports = function(context, cb) {
      var customized_msg_arr = users[choosen_user];
      var customized_msg = customized_msg_arr[0];
      if (request.startsWith("to ")) {
-       response = "Hello <@" + choosen_user + "> ." + customized_msg + " Could you please " + request.substring(3, request.lentgh) + "? Thank you from the mountain!";
+       response = "Hello <@" + choosen_user + "> ." + customized_msg + "Could you please " + request.substring(3, request.lentgh) + "? Thank you from the mountain!";
      }
      
      cb(null, { 
