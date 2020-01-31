@@ -2,16 +2,16 @@ function randInt(a,b){return a+Math.floor(Math.random()*(++b-a))}
 
 function workers(name) { return {
     'U64HNPURG': ['What\' new on tik-tok, young boy?'],
-    'U2WLHAD8T': ['Did you prepare a gun to defend your daughters?'],
-    'U64HS7CTC': ['Do you have some e-mail already?'],
+    'U2WLHAD8T': ['Do you have a gun prepared to defend your daughters?'],
+    'U64HS7CTC': ['What\' new on tik-tok, young boy?'],
     'U02T78DCS': ['What\'s up with smart care?'],
     'U072GEAH3': ['Have you filled blinker fluid in your BMW?'],
     'U7BQUU3AN': ['Paris still so kind to the world?'],
     'U0BNBBR37': ['Oh, you are still here. We miss you!'],
-    'U1P4R0K36': ['How many times did you loose today in TLK?'],
-    'U91BPGAUC': ['Still impressed with awefull SCALA? WHO USED THAT?!'],
+    'U1P4R0K36': ['How many times have you lost in TLK today?'],
+    'U91BPGAUC': ['Still impressed with beatiful SCALA? WHO USED THAT?!'],
     'U0546735Y': ['6 - 4 :heart:'],
-    'U04MJ7NK1': ['Did you respond to all recruiters today?'],
+    'U04MJ7NK1': ['Have you respond to all recruiters today?'],
     'U04497GD6': ['Do you feel 16% chemistry to our company?'],
     'U03BA6HU5': ['Have you drutted everything for today?'],
     'U6W8B26UA': ['Do you recommend any wine for today?'],
@@ -26,14 +26,15 @@ function workers(name) { return {
     'UFWFAKXNK': ['Thank you for supplies, you are the best!'],
     'UFWDK3PV5': ['Don\'t ride with Conrado, he doesn\'t drive carefully!'],
     'UH9V60VLZ': ['Antenna expert, how are you today'],
-    'UJATY01UP': ['Did you started to love our company?'],
+    'UJATY01UP': ['Have you started to love our company?'],
     'UK6KDDL04': ['Do you know already where to put blockchain in Thaumatec?'],
     'UL11FCWAU': ['Are you already on the right track in Thaumatec?'],
-    'UKPK1GCLB': ['Did you started to love our company?'],
-    'UL79MDBT7': ['Did you start brewing the beer before our next event?'],
+    'UKPK1GCLB': ['Have you started to love our company?'],
+    'UL79MDBT7': ['Have you start brewing the beer before our next event?'],
     'ULW3E5VK2': ['Any new design pattern for today?'], 
     'US7AK7DJR': ['Hello C-someletter-O! Hope you like Thaumatec!'],
-    'UHHRD20HK': ['Hello C-someletter-O, Що сталося?']
+    'US7AL1CH3': ['Hello C-someletter-O, Що сталося?'], 
+    'UJATY01UP': ['Hello Santa, how are you?']
   };
 }
 
