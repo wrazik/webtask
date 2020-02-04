@@ -23,7 +23,7 @@ function workers(name) { return {
     'UDNSNRSMS': ['Praised be Jesus Christ, Father Director.'],
     'UAGM1BDPW': ['Still trolling everybody?'],
     'UFVJ3U18V': ['¿Cómo estás?'],
-    'UFWFAKXNK': ['Thank you for supplies, you are the best!'],
+    'UFWFAKXNK': ['Hello Thauma-mother! Thank you for supplies and all of the things you are doing for our office, you are the best!'],
     'UFWDK3PV5': ['Don\'t ride with Conrado, he doesn\'t drive carefully!'],
     'UH9V60VLZ': ['Antenna expert, how are you today'],
     'UJATY01UP': ['Have you started to love our company?'],
